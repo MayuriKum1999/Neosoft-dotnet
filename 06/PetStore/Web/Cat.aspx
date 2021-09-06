@@ -6,16 +6,19 @@
         </div>
     <div>
         <form>
+            <asp:ValidationSummary ID="ValidationSummary1" DisplayMode="BulletList" ShowSummary="true" HeaderText="Errors:" ForeColor="Red" runat="server" />
           <div class="form-group row">
               <asp:Label for="tb_Name" ID="lbl_Name" runat="server" Text="Name" class="col-sm-2 col-form-label"></asp:Label>
             <div class="col-sm-10">
                 <asp:TextBox ID="tb_Name" runat="server" class="form-control" placeholder="Please enter the name of the cat"></asp:TextBox>
+                <asp:RequiredFieldValidator ID="RequiredFieldValidator1" ControlToValidate="tb_Name" runat="server" Text="Name cannot be empty" ErrorMessage="Name cannot be empty" ForeColor="Red"></asp:RequiredFieldValidator>
             </div>
           </div>
           <div class="form-group row">
               <asp:Label for="tb_Dob" ID="lbl_Dob" runat="server" Text="Date of Birth" class="col-sm-2 col-form-label"></asp:Label>
             <div class="col-sm-10">
                 <asp:TextBox ID="tb_Dob" runat="server" class="form-control" placeholder="dd/mm/yyyy"></asp:TextBox>
+                <asp:RangeValidator ID="RangeValidator1" runat="server" ErrorMessage="RangeValidator" Type="Date" MaximumValue="DateTime.Now.Add "></asp:RangeValidator>
             </div>
           </div>
             <div class="form-group row">
