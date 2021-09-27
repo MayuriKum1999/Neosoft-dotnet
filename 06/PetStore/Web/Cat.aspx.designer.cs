@@ -15,15 +15,6 @@ namespace Web
     {
 
         /// <summary>
-        /// ValidationSummary1 control.
-        /// </summary>
-        /// <remarks>
-        /// Auto-generated field.
-        /// To modify move field declaration from designer file to code-behind file.
-        /// </remarks>
-        protected global::System.Web.UI.WebControls.ValidationSummary ValidationSummary1;
-
-        /// <summary>
         /// lbl_Name control.
         /// </summary>
         /// <remarks>
@@ -40,15 +31,6 @@ namespace Web
         /// To modify move field declaration from designer file to code-behind file.
         /// </remarks>
         protected global::System.Web.UI.WebControls.TextBox tb_Name;
-
-        /// <summary>
-        /// RequiredFieldValidator1 control.
-        /// </summary>
-        /// <remarks>
-        /// Auto-generated field.
-        /// To modify move field declaration from designer file to code-behind file.
-        /// </remarks>
-        protected global::System.Web.UI.WebControls.RequiredFieldValidator RequiredFieldValidator1;
 
         /// <summary>
         /// lbl_Dob control.
@@ -69,15 +51,6 @@ namespace Web
         protected global::System.Web.UI.WebControls.TextBox tb_Dob;
 
         /// <summary>
-        /// RangeValidator1 control.
-        /// </summary>
-        /// <remarks>
-        /// Auto-generated field.
-        /// To modify move field declaration from designer file to code-behind file.
-        /// </remarks>
-        protected global::System.Web.UI.WebControls.RangeValidator RangeValidator1;
-
-        /// <summary>
         /// lbl_Gender control.
         /// </summary>
         /// <remarks>
@@ -87,22 +60,13 @@ namespace Web
         protected global::System.Web.UI.WebControls.Label lbl_Gender;
 
         /// <summary>
-        /// rb_Male control.
+        /// rbl_Gender control.
         /// </summary>
         /// <remarks>
         /// Auto-generated field.
         /// To modify move field declaration from designer file to code-behind file.
         /// </remarks>
-        protected global::System.Web.UI.WebControls.RadioButton rb_Male;
-
-        /// <summary>
-        /// rb_Female control.
-        /// </summary>
-        /// <remarks>
-        /// Auto-generated field.
-        /// To modify move field declaration from designer file to code-behind file.
-        /// </remarks>
-        protected global::System.Web.UI.WebControls.RadioButton rb_Female;
+        protected global::System.Web.UI.WebControls.RadioButtonList rbl_Gender;
 
         /// <summary>
         /// lbl_CatType control.
@@ -150,6 +114,15 @@ namespace Web
         protected global::System.Web.UI.WebControls.Button btn_Add;
 
         /// <summary>
+        /// btn_fromDb control.
+        /// </summary>
+        /// <remarks>
+        /// Auto-generated field.
+        /// To modify move field declaration from designer file to code-behind file.
+        /// </remarks>
+        protected global::System.Web.UI.WebControls.Button btn_fromDb;
+
+        /// <summary>
         /// gv_cats control.
         /// </summary>
         /// <remarks>
@@ -157,6 +130,15 @@ namespace Web
         /// To modify move field declaration from designer file to code-behind file.
         /// </remarks>
         protected global::System.Web.UI.WebControls.GridView gv_cats;
+
+        /// <summary>
+        /// btn_updateDB control.
+        /// </summary>
+        /// <remarks>
+        /// Auto-generated field.
+        /// To modify move field declaration from designer file to code-behind file.
+        /// </remarks>
+        protected global::System.Web.UI.WebControls.Button btn_updateDB;
 
         /// <summary>
         /// lbl_Display control.
